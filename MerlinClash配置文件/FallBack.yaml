@@ -2,16 +2,16 @@ port: 3333
 proxies:
   # 单个节点
 proxy-providers:
-  iFarcloud:
+  Molica:
     type: http
-    url: https://oooooooooooooolt?clash=1&flag=meta  #修改你的机场A订阅地址保留&flag=meta结尾
+    url: http://106.75.232.87:58866/link/bga2tyNqDMRu5g0A?clash=1&flag=meta  #修改你的机场A订阅地址保留&flag=meta结尾
     interval: 86400
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 300
     override:
-      additional-prefix: "[机场A]"
+      additional-prefix: "[Molica]"
   YY:
     type: http
     url: https://xxxxxxxxxxxxxxxxxxxxxxxxV?clash=1&flag=meta  #修改你的机场B订阅地址保留&flag=meta结尾
@@ -677,6 +677,7 @@ rules:
   # 🐟 漏网之鱼
 
   - MATCH,🐟 漏网之鱼
+
 
 
 
